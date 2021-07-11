@@ -31,7 +31,7 @@ def PrintResult(word, NumQuery):
     
 	L = DictionaryOfWords[word] 
     
-	for i in range(0,min(len(L),NumQuery)):
+	for i in range(0,min(len(L),int(NumQuery))):
         	PrintContext(L[i])
 while 1>0 :   
     Choice = input('Press Y in order to Continue with the next query or N to end\
